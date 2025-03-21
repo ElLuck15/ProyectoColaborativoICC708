@@ -4,6 +4,7 @@ public class Main {
     }
     public static void MostrarResultado(Float avg){
         System.out.println("El promedio es "+avg);
+        //HOLA
     }
 }
 //Hola
