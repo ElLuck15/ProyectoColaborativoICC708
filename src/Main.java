@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Main {
     public static List<Float> notas = new ArrayList<>();
     public static void main(String[] args) {
@@ -18,6 +21,14 @@ public class Main {
             }
         }while(nota != -1);
         System.out.println(nota);
+
+    }
+    public static Float PromedioNotas(List<Float> notas){
+        float avg = 0;
+        for (int i = 0;i<notas.size();i++){
+            avg+= notas.get(i);
+        }
+        return avg/notas.size();
     }
 }
 //Hola
