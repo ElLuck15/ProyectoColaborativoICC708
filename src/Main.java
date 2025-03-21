@@ -22,6 +22,9 @@ public class Main {
         }while(nota != -1);
         System.out.println(nota);
 
+    public static void MostrarResultado(Float avg){
+        System.out.println("El promedio es "+avg);
+        //HOLA
     }
     public static Float PromedioNotas(List<Float> notas){
         float avg = 0;
